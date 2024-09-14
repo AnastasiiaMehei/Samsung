@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2848 2000" width="2848" height="2000">
+	<title>Test Task - Undertone - 2024</title>
+	<defs>
+		<image width="25" height="42" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAqCAYAAABGB/BgAAAAAXNSR0IArs4c6QAABE5JREFUWEe911tvImUYB/AHEErpUChQSnqy7VKkZDu0JWmb0n4Io9GY1aQXa4xb3ey23Zbtatx01ahtY4zWreuF6xfwE9jEm96YXvRgD2I4zDBHbowhKzAwgz4Ekqa2DFBcbiHvj/88hxc08BxemudgQKORawBwCwC+BYBIOUBDEafT+U1fX9+c2Wz+eXt7+ycAeIxQI5HlYDC4JIqizWq1wu7u7m8AMNwwhCCIhyRJ3mEYxkLTNPT09EAikaAB4MWGIDab7ZHX671NUVQry7LQ0dEBOp2O5jgO6/L5lRG73f6xx+N5n6bpIuByuUCj0VA8z+PhxXpcCSEI4gO/3z8fi8XaOI4rJtBqtRGe5zfOAldBFoPB4DJFUQ6GYaCzsxMKhUKM5/nPAODJ+dmrp7vmZ2Zm7iOARS4BEVEUv1QUZfOi4a4VWZieng7RNF0Euru7MUEkmUyu53K5rcu2Ry3Ig2AweI+maUsikSgDYayBoij/eURnwaoQg8GwGggE7lIURWCRSwnCLMt+CgA/qu0/VcRqta57vd45iqKMPM8XAQD4g2GYT6oBVLvL4XBsuN3uW9Fo1JhMJqGrqwtr8DvHcTgHP6glUJ0Tm8227vF4EGhGABPIsnzC8/xaLcClSQiCWB0eHr4biUSIcgJZlo8EQVgHgKfVJqiUZGVqamopGo1aBEGA3t5eyOVyxzzPf1FtDSoNI6nVaucmJyffiMfjZuwi3KaYQBTFDVmWq65BJWRrYmLiHZwBBPr7+0GSpF8EQXgqy7Jqm1Z6hGdbOOL1egdOT0+Ln/d4PBAOh1cB4KNaa1ApycL4+HgolUo5Tk5Oilu1paWFjsfjTxRFwZmo+3V+GG+Ojo6GstnstePjY7DZbGC1Wv9kGGZTkqQP61Uumvi3xsbGVjKZjPcMlMKbLpPJhOqBLlsrCN3PZDJDCLW2toLD4XjGsux32Wx2oVao0u6a9fv9oVwu9xLWyGw2I5RhWXYzm80u1gJVXJB6vf5tn8+3JEmSG6F/f5WA0+lMMwzztSRJy9VCqlvYZDLNud3u+Xw+P4CPDhO1t7f/TdP0Wj6ff1gNpIrgIXq9/t2hoaFFWZYHjo6OylAqHo+vKYrySA2qCikdcpMkyaVCoTB4eHiIrY0t/hfDMF9JklRxYGtB0LoxMjISUhTl+sHBAbS1tSGWYlkWa/SgEXd8+YzXAoHASj6f9+/v74PFYsFEzziOu7S9a01Shl7BgZVleQwhnCO73Z4VBGErnU7fqbS71Op3/v1XcWARwho1Nzdje0uCIHyfTqffO/vhepOUz3idJMlljUYzijUymUwI5QVBeJxOp29XuhlrSmQwGN70+Xz3FEUhEcJELpcrF4vF8MdeEbpqkuIXMhqNs4ODgws6ne763t5e8ZoQRVEGgBcahpSi38BH19TUNGwwGGBnZwdv09lGI3jey6U/pmzpz+mv/wdyYT0bUhO1TvkHlPTyOriD3noAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+	</style>
+	<g id="Frame 2 / Main">
+		<g id="Copy">
+			<use id="Left Arrow" href="#img1" transform="matrix(.72,0,0,.738,564,1236)"/>
+		</g>
+	</g>
+	<g id="Permanent Elements">
+	</g>
+</svg>

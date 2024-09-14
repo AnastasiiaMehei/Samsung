@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2848 2000" width="2848" height="2000">
+	<title>Test Task - Undertone - 2024</title>
+	<defs>
+		<image width="25" height="42" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAqCAYAAABGB/BgAAAAAXNSR0IArs4c6QAABFlJREFUWEe9l9lPG1cUxs/MxWNPqxT1AXuuZ7xAJMISlgdUHvhjKC8tJEhVRGjUNokStWlJBSGFkipqHyK1ldqqVf8IDDJiMTZUHhk3UDaZwR7bYNnILnY51oAMcfDaXMkvXs7P3/3Od+4dBt7AYt4AA3Ih7wHADQAQAeAZAPxZrT+QC3nR09PTm0wmIZVKzS8vL38DAD9XA5QL+ddkMpG9vT3o7OyE4+Njz9ra2vjR0dGLSkG5kIn6+vrBQCDAJBIJaG9vx9p/ybI8kkwmf6oEdM54nucnBEHoVxRFF4/Hs6B0Ou1ZWVn5EgB+LRf0SnfxPP+tIAgfKopSg4ra2tqAZVm3y+X6AgB+LweUt4V5nn8qCMJAKBTiDg4OoKOjAwghS0tLS6joj1JBr82JXq8fo5TeDIfD+mg0mgVxHOean58fAYDfSgFdGkaO4x6ZzeaPotHo2+FwOOsRIWTZ5XKNltLeBRPPcdxDSZJuqap6JRKJZD0ihKxqOfqhGEUFIViEZdl7drt9aH9/v/bw8BBaW1sRtOb1esdTqdR3hUBFQbBITU3NA5vNdktRlHcQ1NLSgu+99Pv9T+Lx+NRloKIhWITjuMeSJA0qivJWLBaD5uZm0Ol0616v96tUKvX960AlQbCIXq8fFUXxRjAY5FGRBvK73e5HAJB3BJUM0UBjGsiAOcKt0+v1Pi2wP15UVBYEixgMhhFK6SC2t6qqWZDBYJC1wJ4DlQ3RPPpcFEXM0ZVTEM/z8uLi4hgAnLV3RRCtvT+zWq1DiUTiXTwm0KPa2totp9OJ5xHCzp2Mhdr9ss8fNjY23vf5fNnvNDU1gSzLLwHgalUghJDeurq62zzPX19fXwez2QwWiwXm5uaeA0B/xRBCSJ/JZBomhDRvbW1lAXa7/cDpdP6STqcxoJ5KIb2U0mGdTte6ubkJgiBAQ0PD4ezsLE5pPBLOVrnGvy8IAipo2dnZAaPRiIDE6urqaCwWu1+NnPRRSj8mhDRtb2+fAo58Pt+Uqqq383VHqUr6zGbzHYZhruUoOPL7/c+CweBQNWZXryRJnwDANVRAKUWTY16v93kkEsmr4BRarJJeURQ/ZRimEQFaF0UXFhYmksnkKx6U7AnLsh+gBwzDXEUAZsBut4emp6fHAQAnb8F1qRKdTtdvNBqHGYZpQIDVasXXvsPheHw6MgoSLhsrLMveNJlMQwzD1O/u7mYBNpsNFWAGnhRTvJAnZ1uEAEmSEBCemZlBAN5USlr5tmsAg5bJZOpxqmomH3o8nq9jsRjeIkteFyEDlNI7mUzGFggEQBRF3KYDn883GQqF7pZcXftBLuQOpXToZLDVoQIEnNxOorIsT6qqeq9cwMUB+Y/FYrHiNEWTLRaL6na7J09uJQ8qAVyErHR1dV3HW+LJ40PA4XA8BQBs1YpX7nYNdHd3381kMuaNjY0pRVEGK66exxN8C49LfDjFB9O//y9Iteqeq1PsgKwI/h8jfLU6GSp34gAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+	</style>
+	<g id="Frame 2 / Main">
+		<g id="Copy">
+			<use id="Right Arrow" href="#img1" transform="matrix(.72,0,0,.738,663,1236)"/>
+		</g>
+	</g>
+	<g id="Permanent Elements">
+	</g>
+</svg>

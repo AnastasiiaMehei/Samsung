@@ -16,5 +16,14 @@ export default defineConfig({
       '@': resolve(__dirname, './src')
     }
   },
-  assetsInclude: ['**/*.png']
+  assetsInclude: ['**/*.png'],
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        '404.html': resolve(__dirname, '404.html'),
+      }
+    }
+  }
 })

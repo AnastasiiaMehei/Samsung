@@ -1,5 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
-
+<symbol id="icon-right" viewBox="0 0 32 32">
+<path d="M18 23l3 3 10-10-10-10-3 3 7 7z"></path>
+</symbol>
+<symbol id="icon-left" viewBox="0 0 32 32">
+<path d="M14 9l-3-3-10 10 10 10 3-3-7-7z"></path>
+</symbol>
   </defs>
 </svg>

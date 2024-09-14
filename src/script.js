@@ -9,5 +9,8 @@
             );
             gsap.fromTo(".div-paragraph", 
                 { x: -100, opacity: 0 },
-        { x: 0, opacity: 1, duration: 1, delay: 2});        
+        { x: 0, opacity: 1, duration: 1, delay: 2});  
+        gsap.fromTo(".frame2", 
+            { x: -100, opacity: 0 },
+    { x: 0, opacity: 1, duration: 1, delay: 3});  
         });

@@ -108,18 +108,19 @@ border: 4px solid #000000;
   justify-content: space-between;
  }
  .samsung-logo {
-  display: inline-block;
-  position: relative;
+  /* display: inline-block; */
+  /* position: relative; */
   width: 275px;
   height: 74px;
 }
 .samsung-logo-img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 275px;
   height: 74px;
-  object-fit: contain;
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+ 
+  object-fit: contain; */
 }
  .bespoke{
   font-size: 52px;

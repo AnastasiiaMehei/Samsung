@@ -124,12 +124,12 @@ text-align: center;
   width: 340px;
 }
 .paragraph {
-  font-family: 'Samsung Sharp Sans', sans-serif;
+  /* font-family: 'Samsung Sharp Sans', sans-serif; */
     font-size: 25px;
     line-height: 32px;
     color: #000000;
     font-weight: bold;
-    font-family: "Samsung Sharp Sans";
+    /* font-family: "Samsung Sharp Sans"; */
 }
 .kitchnlogo-div {
   display: flex;
@@ -140,7 +140,7 @@ text-align: center;
   height: 26px;
 }
 .footer-div {
-  margin-top: 300px;
+  margin-top: 200px;
   display: flex;
   flex-direction: column;
 

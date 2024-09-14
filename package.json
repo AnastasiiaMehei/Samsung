@@ -7,13 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "vite": "^5.4.5"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5"
   }
 }
-

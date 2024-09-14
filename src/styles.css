@@ -131,8 +131,19 @@ text-align: center;
     font-weight: bold;
     font-family: "Samsung Sharp Sans";
 }
+.kitchnlogo-div {
+  display: flex;
+  gap: 10px;
+}
+.kitchnlogo img {
+  width: 106px;
+  height: 26px;
+}
 .footer-div {
   margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+
 }
 .footer-paragraph{
   font-weight: bold;

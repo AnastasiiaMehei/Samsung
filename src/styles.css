@@ -202,7 +202,7 @@ text-align: center;
   background-repeat: no-repeat;
   /* padding: 54px; */
   background-color: #ffffff;
-  height: 86vh;
+  height: 84vh;
     width: 100%;
     display: flex;
     flex: 0 0 95%;
@@ -312,6 +312,13 @@ color: gray;
   background-position: center;
   width: -webkit-fill-available;
   height: -webkit-fill-available;
+}
+.frame2-paragraph-four {
+  width: 511px;
+}
+.frame2-paragraph-five {
+  width: 511px;
+  margin-top: 26px;
 }
 /* ================================== fifth section ========================================== */
 /* frame6 */

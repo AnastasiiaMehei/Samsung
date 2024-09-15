@@ -109,9 +109,12 @@ body {
   align-items: baseline;
     justify-content: space-between;
  }
+ .samsung-logo {
+  margin-bottom: 110px;
+ }
 .samsung-logo-img {
   width: 275px;
-  margin-bottom: 140px;
+  /* margin-bottom: 140px; */
 }
  .bespoke{
   font-size: 42px;
@@ -187,8 +190,8 @@ text-align: center;
   width: -webkit-fill-available;
 }
 .section-frame2 {
-  display: none;
-  /* display: flex; */
+  /* display: none; */
+  display: flex;
 
   justify-content: center;
 }
@@ -204,8 +207,16 @@ text-align: center;
     background-size: auto;
     background-position: center;
 }
-.frame2 {
+/* .frame2 {
     background-image: url('./img/vacuum-placeholder.png'); 
+} */
+ 
+.section-frame2 .image-section {
+  background-image: url('/src/img/frame2.jpg');
+  background-size: cover;
+  background-position: center;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
 .logo-frame2 {
   padding: 29px;
@@ -295,8 +306,8 @@ color: gray;
 /* ================================== fifth section ========================================== */
 /* frame6 */
 .section-frame6 {
-  /* display: none; */
-  display: flex;
+  display: none;
+  /* display: flex; */
   justify-content: center;
 }
 

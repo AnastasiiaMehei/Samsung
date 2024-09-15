@@ -258,8 +258,15 @@ color: gray;
 }
 /* frame4 */
 .section-frame4 {
-  display: block;
+  display: none;
 }
 .frame4 {
+  background-image: url('./img/frame4.png'); 
+}
+/* frame5 */
+.section-frame5 {
+  display: block;
+}
+.frame5 {
   background-image: url('./img/frame4.png'); 
 }

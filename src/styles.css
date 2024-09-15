@@ -85,6 +85,38 @@ body {
     justify-content: center;
     align-items: center;
 }
+.container {
+  margin: 0 auto;
+  padding: 0 0;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 374.98px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+   max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
 /* ====================================== main page =========================================== */
 /* frame1 */
 .section-frame1 {
@@ -94,14 +126,15 @@ body {
   width: -webkit-fill-available; 
 }
 .frame1 {
-  width: 90%;
+  overflow: hidden;
+  width: 100%;
   background-color: #ffffff;
   border: 4px solid #000000;
   background-image: url(/src/img/frame1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80%;
+  height: 100%;
   padding: 27px;
 }
  .logo {
@@ -112,7 +145,8 @@ body {
  }
  .samsung-logo {
   margin-top: 20px;
-  margin-bottom: 110px; }
+  margin-bottom: 32px;
+}
 .samsung-logo-img {
   width: 275px;
   /* margin-bottom: 140px; */
@@ -145,7 +179,7 @@ text-align: center;
   height: 26px;
 }
 .footer-div {
-  margin-top: 195px;
+  margin-top: 200px;
   display: flex;
   flex-direction: column;
 
@@ -166,7 +200,7 @@ text-align: center;
 
 }
 .footer-details {
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: "Samsung Sharp Sans";
   font-weight: lighter;
   font-size: 15px;
@@ -174,17 +208,17 @@ text-align: center;
 }
 .button-shop-now {
   width: 276px;
-  height: 103px;
-  border-radius: 59px;
-  border: 4px solid #000000;
-  text-align: center;
-  font-size: 42px;
-  line-height: 27px;
-  font-size: 29px;
-  line-height: 27px;
-  text-transform: uppercase;
-  margin-top: 27px;
-  font-family: 'SamsungOne', sans-serif;
+    height: 82px;
+    border-radius: 59px;
+    border: 4px solid #000000;
+    text-align: center;
+    font-size: 42px;
+    line-height: 27px;
+    font-size: 29px;
+    line-height: -20px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-family: 'SamsungOne', sans-serif;
 } 
 /* ================================== first section ========================================== */
 /* frame2 */
@@ -200,19 +234,15 @@ text-align: center;
 .frame {
   border: 4px solid #000000;
   background-repeat: no-repeat;
-  /* padding: 54px; */
   background-color: #ffffff;
-  height: 84vh;
-    width: 100%;
-    display: flex;
-    flex: 0 0 95%;
-    background-size: auto;
-    background-position: center;
+  height: 72vh;
+  width: 1400px;
+  display: flex;
+  flex: 0 0 95%;
+  background-position: center;
+  align-items: start;
 }
-/* .frame2 {
-    background-image: url('./img/vacuum-placeholder.png'); 
-} */
- 
+
 .section-frame2 .image-section {
   background-image: url('/src/img/frame2.jpg');
   background-size: cover;
@@ -229,7 +259,7 @@ text-align: center;
 }
 .frame2-paragraph {
   margin-bottom: 40px;
-  margin-top: 70px;
+  margin-top: 38px;
   width: 459px;
   font-size: 18px;
   color: #000000;
@@ -248,7 +278,7 @@ color: gray;
 }
 .btn-div {
   position: relative;
-  margin-top: 20px;
+  margin-top: 15px;
   width: 120px;
   display: flex;
   align-items: center;
@@ -280,11 +310,11 @@ color: gray;
   width: -webkit-fill-available;
   height: -webkit-fill-available;
 }
-.bespoke-frame3 {
+.bespoke-position {
   color: white;
     display: flex;
     justify-content: flex-end;
-    margin-top: 44px;
+  margin-top: 45px;
     margin-right: 48px;}
 /* ================================== third section ========================================== */
 /* frame4 */
@@ -317,8 +347,8 @@ color: gray;
   width: 511px;
 }
 .frame2-paragraph-five {
-  width: 511px;
-  margin-top: 26px;
+  width: 562px;
+  margin-top: 10px;
 }
 /* ================================== fifth section ========================================== */
 /* frame6 */
@@ -334,4 +364,46 @@ color: gray;
   background-position: center;
   width: -webkit-fill-available;
   height: -webkit-fill-available;
+}
+/* ========== animation ============= */
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.frame2-paragraph.animate-right {
+  animation: slideInFromRight 0.5s forwards;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.button-shop-now.animate-grow {
+  animation: grow 0.5s forwards;
+}
+
+@keyframes shrink {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.9);
+  }
+}
+
+.swiper-button-next.animate-shrink,
+.swiper-button-prev.animate-shrink {
+  animation: shrink 0.5s forwards;
 }

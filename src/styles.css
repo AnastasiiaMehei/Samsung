@@ -1,5 +1,4 @@
 /* Reset styles */
-/* Reset styles */
 *,
 *:before,
 *:after {
@@ -9,7 +8,6 @@ a:focus,
 a:active {
   color: currentColor;
 }
-
 html,
 body {
   min-width: 320px;
@@ -19,7 +17,6 @@ body {
   min-height: 100%;
   overflow:clip;
 }
-
 h1,
 h2,
 h3,
@@ -30,18 +27,15 @@ p {
   margin: 0;
 }
 
-
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 a {
   color: currentColor;
   text-decoration: none;
 }
-
 button {
   cursor: pointer;
   border: none;
@@ -49,7 +43,6 @@ button {
   background-color: transparent;
   color: inherit;
 }
-
 img {
   display: block;
   /* max-width: 100%; */
@@ -79,7 +72,6 @@ body {
       width: 768px;
     }
   }
-  
   @media screen and (min-width: 1440px) {
     body {
       width: 1440px;
@@ -92,9 +84,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* ====================================== main page =========================================== */
 /* frame1 */
 .section-frame1 {
   display: none;
+  /* display: flex; */
   justify-content: center;  
   width: -webkit-fill-available;
 }
@@ -117,6 +111,7 @@ body {
  }
 .samsung-logo-img {
   width: 275px;
+  margin-bottom: 140px;
 }
  .bespoke{
   font-size: 42px;
@@ -125,6 +120,7 @@ color: #ffffff;
 font-weight: bold;
 text-align: center;
 }
+
 .div-paragraph {
   width: 460px;
 }
@@ -155,8 +151,6 @@ text-align: center;
   font-family: "Samsung Sharp Sans";
   font-size: 45px;
   color: #ffffff;
-
-
 }
 .footer-span{
   font-weight: lighter;
@@ -172,47 +166,46 @@ text-align: center;
   font-weight: lighter;
   font-size: 15px;
   color: #ffffff;
-
-
-
 }
 .button-shop-now {
-  width: 305px;
-height: 118px;
-border-radius: 59px;
-border: 4px solid #000000;
-text-align: center;
-font-size: 42px;
-line-height: 27px;
-font-size: 42px;
-line-height: 27px;
-text-transform: uppercase;
-margin-top: 112px;
-font-family: 'SamsungOne', sans-serif;
+  width: 280px;
+  height: 110px;
+  border-radius: 59px;
+  border: 4px solid #000000;
+  text-align: center;
+  font-size: 42px;
+  line-height: 27px;
+  font-size: 42px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-top: 27px;
+  font-family: 'SamsungOne', sans-serif;
 } 
+/* ================================== first section ========================================== */
 /* frame2 */
 .section-frame {
   width: -webkit-fill-available;
 }
 .section-frame2 {
   display: none;
+  /* display: flex; */
+
   justify-content: center;
 }
 .frame {
   border: 4px solid #000000;
   background-repeat: no-repeat;
-  padding: 54px;
+  /* padding: 54px; */
   background-color: #ffffff;
   height: 86vh;
     width: 100%;
     display: flex;
-    flex: 0 0 50%;
+    flex: 0 0 95%;
     background-size: auto;
     background-position: center;
 }
 .frame2 {
-    background-image: url('./img/vacuum-placeholder.png');
-   
+    background-image: url('./img/vacuum-placeholder.png'); 
 }
 .logo-frame2 {
   padding: 29px;
@@ -222,7 +215,8 @@ font-family: 'SamsungOne', sans-serif;
   display: flex;
 }
 .frame2-paragraph {
-  margin-top: 72px;
+  margin-bottom: 40px;
+  margin-top: 70px;
   width: 459px;
   font-size: 18px;
   color: #000000;
@@ -240,7 +234,7 @@ color: gray;
   flex-direction: column;
 }
 .btn-div {
-  margin-top: 25px;
+  margin-top: 20px;
   width: 120px;
   display: flex;
   align-items: center;
@@ -249,24 +243,67 @@ color: gray;
   color: #000000;
 
 }
+/* ================================== second section ========================================== */
 /* frame3 */
 .section-frame3 {
-  display: none;
+
+    display: none;
+        /* display: flex; */
+        justify-content: center;
 }
-.frame3 {
-  background-image: url('./img/frame3.png'); 
+.section-frame3 .image-section {
+  background-image: url('/src/img/frame3.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
+.bespoke-frame3 {
+  color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 44px;
+    margin-right: 48px;}
+/* ================================== third section ========================================== */
 /* frame4 */
 .section-frame4 {
   display: none;
+      /* display: flex; */
+      justify-content: center;
 }
 .frame4 {
   background-image: url('./img/frame4.png'); 
+  background-position: right;
 }
+/* ================================== fourth section ========================================== */
 /* frame5 */
 .section-frame5 {
-  display: block;
+  display: none;
+  /* display: flex; */
+  justify-content: center;
+
 }
-.frame5 {
-  background-image: url('./img/frame4.png'); 
+
+.section-frame5 .image-section {
+  background-image: url('/src/img/frame5.jpg');
+  background-size: cover;
+  background-position: center;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+/* ================================== fifth section ========================================== */
+/* frame6 */
+.section-frame6 {
+  /* display: none; */
+  display: flex;
+  justify-content: center;
+}
+
+.section-frame6 .image-section {
+  background-image: url('/src/img/frame6.jpg');
+  background-size: cover;
+  background-position: center;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
 }

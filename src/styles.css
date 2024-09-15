@@ -88,8 +88,8 @@ body {
 /* ====================================== main page =========================================== */
 /* frame1 */
 .section-frame1 {
-  /* display: none; */
-  display: flex;
+  display: none;
+  /* display: flex; */
   justify-content: center;  
   width: -webkit-fill-available; 
 }
@@ -145,7 +145,7 @@ text-align: center;
   height: 26px;
 }
 .footer-div {
-  margin-top: 350px;
+  margin-top: 195px;
   display: flex;
   flex-direction: column;
 
@@ -153,7 +153,7 @@ text-align: center;
 .footer-paragraph{
   font-weight: bold;
   font-family: "Samsung Sharp Sans";
-  font-size: 45px;
+  font-size: 86px;
   color: #ffffff;
 }
 .footer-span{
@@ -162,6 +162,7 @@ text-align: center;
 }
 .save-now {
   color: #ffffff;
+  font-size: 47px;
 
 }
 .footer-details {
@@ -172,14 +173,14 @@ text-align: center;
   color: #ffffff;
 }
 .button-shop-now {
-  width: 280px;
-  height: 110px;
+  width: 276px;
+  height: 103px;
   border-radius: 59px;
   border: 4px solid #000000;
   text-align: center;
   font-size: 42px;
   line-height: 27px;
-  font-size: 42px;
+  font-size: 29px;
   line-height: 27px;
   text-transform: uppercase;
   margin-top: 27px;
@@ -191,8 +192,8 @@ text-align: center;
   width: -webkit-fill-available;
 }
 .section-frame2 {
-  display: none;
-  /* display: flex; */
+  /* display: none; */
+  display: flex;
 
   justify-content: center;
 }

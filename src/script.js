@@ -34,6 +34,31 @@ document.addEventListener("DOMContentLoaded", (event) => {
                     { x: 0, opacity: 1, duration: 1 }
                 );
             }
-        }, 4000); 
+        }, 4000); const sections = document.querySelectorAll('.section-frame');
+        let currentIndex = 0;
+      
+        function updateSections() {
+          sections.forEach((section, index) => {
+            section.style.display = index === currentIndex ? 'flex' : 'none';
+          });
+        }
+      
+        updateSections();
+      
+        const nextButtons = document.querySelectorAll('.swiper-button-next');
+        nextButtons.forEach(button => {
+          button.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % sections.length;
+            updateSections();
+          });
+        });
+      
+        const prevButtons = document.querySelectorAll('.swiper-button-prev');
+        prevButtons.forEach(button => {
+          button.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + sections.length) % sections.length;
+            updateSections();
+          });
+        });
         
     });})

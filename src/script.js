@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                     { x: 0, opacity: 1, duration: 1 }
                 );
             }
-        }, 4000); const sections = document.querySelectorAll('.section-frame');
+        }, 0); const sections = document.querySelectorAll('.section-frame');
         let currentIndex = 0;
       
         function updateSections() {

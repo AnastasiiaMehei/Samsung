@@ -94,7 +94,7 @@ body {
 }
 /* frame1 */
 .section-frame1 {
-  display: block;
+  display: none;
   width: -webkit-fill-available;
 }
 .frame1 {
@@ -190,11 +190,14 @@ margin-top: 112px;
 font-family: 'SamsungOne', sans-serif;
 } 
 /* frame2 */
+.section-frame {
+  width: -webkit-fill-available;
+}
 .section-frame2 {
   width: -webkit-fill-available;
   display: none;
 }
-.frame2 {
+.frame {
   border: 4px solid #000000;
   background-repeat: no-repeat;
   padding: 54px;
@@ -203,9 +206,12 @@ font-family: 'SamsungOne', sans-serif;
     width: 100%;
     display: flex;
     flex: 0 0 50%;
-    background-image: url('./img/vacuum-placeholder.png');
     background-size: auto;
     background-position: center;
+}
+.frame2 {
+    background-image: url('./img/vacuum-placeholder.png');
+   
 }
 .logo-frame2 {
   padding: 29px;
@@ -242,6 +248,11 @@ color: gray;
   color: #000000;
 
 }
-/* .bespoke-frame2 {
-  color: blue;
-} */
+/* frame3 */
+.section-frame3 {
+  display: none;
+}
+.frame2 {
+  background-image: url('./img/vacuum-placeholder.png');
+ 
+}

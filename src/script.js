@@ -18,23 +18,23 @@ document.addEventListener("DOMContentLoaded", (event) => {
         );
     });
 
-    // animationPromise.then(() => {
-    //     // Додаткова затримка після завершення анімації
-    //     setTimeout(() => {
-    //         const sectionFrame1 = document.querySelector('.section-frame1');
-    //         if (sectionFrame1) {
-    //             sectionFrame1.style.display = 'none';
-    //         }
+    animationPromise.then(() => {
+        // Додаткова затримка після завершення анімації
+        setTimeout(() => {
+            const sectionFrame1 = document.querySelector('.section-frame1');
+            if (sectionFrame1) {
+                sectionFrame1.style.display = 'none';
+            }
 
-    //         const sectionFrame = document.querySelector('.section-frame');
-    //         if (sectionFrame) {
-    //             sectionFrame.style.display = 'flex';
-    //         }
+            const sectionFrame = document.querySelector('.section-frame');
+            if (sectionFrame) {
+                sectionFrame.style.display = 'flex';
+            }
 
-    //         // Додаткова логіка після зміни стилів
-    //         console.log('Animation completed. Styles changed.');
-    //     }, 1000); // Затримка на 1 секунду
-    // });
+            // Додаткова логіка після зміни стилів
+            console.log('Animation completed. Styles changed.');
+        }, 3000); // Затримка на 1 секунду
+    });
 });
     
         // Обробник події для кнопки "Read more..."

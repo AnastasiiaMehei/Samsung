@@ -102,7 +102,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 80%;
-  padding: 82px;
+  padding: 27px;
 }
  .logo {
   display: flex;
@@ -111,8 +111,8 @@ body {
     justify-content: space-between;
  }
  .samsung-logo {
-  margin-bottom: 110px;
- }
+  margin-top: 20px;
+  margin-bottom: 110px; }
 .samsung-logo-img {
   width: 275px;
   /* margin-bottom: 140px; */

@@ -70,6 +70,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
             window.open('', '_blank');
         });
     });
+    const saveButtons = document.querySelectorAll('.button-shop-now');
+    saveButtons.forEach(button => {
+        button.addEventListener('click', function(event) {
+            event.preventDefault();
+            window.open('', '_blank');
+        });
+    });
 
 
 

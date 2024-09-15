@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             window.open('', '_blank');
         });
     });
-
-
-
+    
 })
+
+// amination

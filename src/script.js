@@ -61,4 +61,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
           });
         });
         
-    });})
+    });
+    const readMoreLinks = document.querySelectorAll('.read-more a');
+    
+    readMoreLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            window.open('', '_blank');
+        });
+    });
+
+
+
+})

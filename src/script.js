@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         
         gsap.fromTo(".samsung-logo",
             { y: 0, x: 0 },
-            { y: -10, duration: 1, delay: 2 }
+            { y: -20, duration: 1, delay: 2 }
         );
         
         gsap.fromTo([".animation-par"], 

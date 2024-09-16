@@ -58,6 +58,8 @@ body {
   margin: 0 auto;
   width: 320px;
   color: black;
+  overflow-x: hidden;
+
 }
 @font-face {
   font-family: 'SamsungSharpSans';
@@ -85,6 +87,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .container {
   margin: 0 auto;
@@ -92,32 +95,11 @@ body {
   display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    
 
 }
 
-@media screen and (max-width: 374.98px) {
-  .container {
-    max-width: 375px;
-  }
-}
-
-@media screen and (min-width: 375px) {
-  .container {
-   max-width: 375px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-}
 /* ====================================== main page =========================================== */
 /* frame1 */
 .section-frame1 {
@@ -236,7 +218,7 @@ body {
   background-repeat: no-repeat;
   background-color: #fff;
   height: 72vh;
-  width: 1400px;
+  /* width: 1400px; */
   display: flex;
   /* flex: 0 0 95%; */
   flex: 0 0 150%;
@@ -488,3 +470,51 @@ justify-content: center;
 
   }
 } */
+ 
+@media screen and (max-width: 374.98px) {
+  .container {
+    max-width: 375px;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+   max-width: 375px;
+   height: 100%;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .container {
+    max-width: 500px;
+    height: 100%;
+  }
+  .footer-div {
+    margin-top: 65px;
+}
+.footer-paragraph {
+
+  font-size: 61px;
+}
+.bespoke {
+  font-size: 29px;
+}
+.div-paragraph {
+  width: 343px;
+}
+.paragraph {
+  font-size: 26px;
+}
+.frame {
+  height: 66vh;}
+.samsung-logo {
+  margin-top: 0px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1200px;
+  }
+}

@@ -34,34 +34,57 @@ document.addEventListener("DOMContentLoaded", (event) => {
                     { x: 0, opacity: 1, duration: 1 }
                 );
             }
-        }, 0); const sections = document.querySelectorAll('.section-frame');
+        }, 0);
+
+        const sections = document.querySelectorAll('.section-frame');
         let currentIndex = 0;
-      
+        let autoScrollInterval;
+        let userInteractionTimeout;
+
         function updateSections() {
-          sections.forEach((section, index) => {
-            section.style.display = index === currentIndex ? 'flex' : 'none';
-          });
+            sections.forEach((section, index) => {
+                section.style.display = index === currentIndex ? 'flex' : 'none';
+            });
         }
-      
+
+        function startAutoScroll() {
+            autoScrollInterval = setInterval(() => {
+                currentIndex = (currentIndex + 1) % sections.length;
+                updateSections();
+            }, 5000); // Переключення кожні 5 секунд
+        }
+
+        function stopAutoScroll() {
+            clearInterval(autoScrollInterval);
+            clearTimeout(userInteractionTimeout);
+        }
+
         updateSections();
-      
+
         const nextButtons = document.querySelectorAll('.swiper-button-next');
         nextButtons.forEach(button => {
-          button.addEventListener('click', () => {
-            currentIndex = (currentIndex + 1) % sections.length;
-            updateSections();
-          });
+            button.addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % sections.length;
+                updateSections();
+                stopAutoScroll();
+                userInteractionTimeout = setTimeout(startAutoScroll, 30000); // Перезапуск автоматичного прокручування через 30 секунд
+            });
         });
-      
+
         const prevButtons = document.querySelectorAll('.swiper-button-prev');
         prevButtons.forEach(button => {
-          button.addEventListener('click', () => {
-            currentIndex = (currentIndex - 1 + sections.length) % sections.length;
-            updateSections();
-          });
+            button.addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + sections.length) % sections.length;
+                updateSections();
+                stopAutoScroll();
+                userInteractionTimeout = setTimeout(startAutoScroll, 30000); // Перезапуск автоматичного прокручування через 30 секунд
+            });
         });
-        
+
+        // Запуск автоматичного прокручування через 30 секунд після відкриття сторінки
+        setTimeout(startAutoScroll, 0);
     });
+
     const readMoreLinks = document.querySelectorAll('.read-more a');
     
     readMoreLinks.forEach(link => {
@@ -77,7 +100,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             window.open('', '_blank');
         });
     });
-    
-})
+   });
 
-// amination
+
+

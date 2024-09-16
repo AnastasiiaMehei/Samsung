@@ -434,3 +434,58 @@ justify-content: center;
 }
 /* Додайте цей код в ваш CSS файл */
 
+/* Mobile styles */
+@media screen and (max-width: 320px) {
+  .container {
+    padding: 0 10px; /* Add some padding to prevent text from touching the edges */
+  }
+
+  .paragraph, .footer-paragraph, .save-now, .frame2-paragraph {
+    font-size: 14px; /* Adjust font size for better readability */
+    line-height: 18px;
+  }
+
+  .samsung-logo-img {
+    width: 150px; /* Adjust logo size */
+  }
+
+  .button-shop-now {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+
+/* Tablet styles */
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .container {
+    padding: 0 20px; /* Add some padding to prevent text from touching the edges */
+  }
+
+  .paragraph, .footer-paragraph, .save-now, .frame2-paragraph {
+    font-size: 18px; /* Adjust font size for better readability */
+    line-height: 22px;
+  }
+
+  .samsung-logo-img {
+    width: 200px; /* Adjust logo size */
+  }
+
+  .button-shop-now {
+    width: 240px;
+    height: 70px;
+    font-size: 24px;
+  }
+  .frame {
+    flex: 0 0 104%;
+    height: 76vh;
+
+  }
+}
+/* @media screen and (max-width: 1439px) {
+  .frame {
+    flex: 0 0 163%;
+    height: 76vh;
+
+  }
+} */

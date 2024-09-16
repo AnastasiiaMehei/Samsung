@@ -46,6 +46,7 @@ button {
 img {
   display: block;
   /* max-width: 100%; */
+  
 }
 body {
   background-image: url(/src/img/background.jpg);
@@ -120,10 +121,10 @@ body {
 /* ====================================== main page =========================================== */
 /* frame1 */
 .section-frame1 {
-  display: none;
-  /* display: flex; */
+  /* display: none; */
+  display: flex;
   justify-content: center;  
-  width: -webkit-fill-available; 
+  /* width: -webkit-fill-available;  */
 }
 .frame1 {
   overflow: hidden;
@@ -144,7 +145,9 @@ body {
   justify-content: space-between;
  }
  .samsung-logo {
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  margin-top: 10px;
+
   margin-bottom: 32px;
 }
 .samsung-logo-img {
@@ -214,7 +217,7 @@ body {
     font-size: 29px;
     line-height: -20px;
     text-transform: uppercase;
-    margin-top: 25px;
+    margin-top: 20px;
     font-family: 'SamsungOne', sans-serif;
 } 
 /* ================================== first section ========================================== */
@@ -223,8 +226,8 @@ body {
   width: -webkit-fill-available;
 }
 .section-frame2 {
-  /* display: none; */
-  display: flex;
+  display: none;
+  /* display: flex; */
 
   justify-content: center;
 }
@@ -320,10 +323,6 @@ justify-content: center;
   display: none;
       /* display: flex; */
 justify-content: center;
-}
-.frame4 {
-  background-image: url('./img/frame4.png'); 
-  background-position: right;
 }
 .frame4 .image-section {
   background-image: url('/src/img/frame4.png');
@@ -431,3 +430,5 @@ justify-content: center;
     opacity: 1;
   }
 }
+/* Додайте цей код в ваш CSS файл */
+

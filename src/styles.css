@@ -560,7 +560,7 @@ justify-content: center;
 
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 423px;
+    max-width: 370px;
    height: 100%;
   }
   

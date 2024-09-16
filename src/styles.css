@@ -103,8 +103,8 @@ body {
 /* ====================================== main page =========================================== */
 /* frame1 */
 .section-frame1 {
-  display: none;
-  /* display: flex; */
+  /* display: none; */
+  display: flex;
   justify-content: center;  
   /* width: -webkit-fill-available;  */
 }
@@ -208,8 +208,8 @@ body {
   width: -webkit-fill-available;
 }
 .section-frame2 {
-  /* display: none; */
-  display: flex;
+  display: none;
+  /* display: flex; */
 
   justify-content: center;
 }

@@ -478,13 +478,6 @@ justify-content: center;
   }
 }
 
-@media screen and (min-width: 375px) {
-  .container {
-   max-width: 375px;
-   height: 100%;
-  }
-}
-
 @media screen and (max-width: 1439px) {
   .container {
     max-width: 500px;
@@ -517,4 +510,41 @@ justify-content: center;
   .container {
     max-width: 1200px;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 423px;
+   height: 100%;
+  }
+  .footer-div {
+    margin-top: 130px;
+}
+.footer-paragraph {
+  font-size: 61px;
+  line-height: initial;
+}
+.bespoke {
+  font-size: 22px;
+  line-height: 36px;}
+  .frame {
+    height: 49vh;
+}
+.footer-div {
+  margin-top: 26px;}
+.footer-paragraph {
+  font-size: 20px;}
+  .paragraph {
+    font-size: 16px;
+}
+.bespoke {
+  font-size: 18px;
+  line-height: 24px;
+}
+.samsung-logo {
+  margin-top: -20px;
+}
+.div-paragraph {
+  width: 239px;
+}
 }

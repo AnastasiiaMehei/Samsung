@@ -233,15 +233,14 @@ body {
 }
 .frame {
   border: 4px solid #000000;
-    background-repeat: no-repeat;
-    background-color: #fff;
-    height: 72vh;
-    width: 1400px;
-    display: flex;
-    /* flex: 0 0 95%; */
-    flex: 0 0 150%;
-
-    background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  height: 72vh;
+  width: 1400px;
+  display: flex;
+  flex: 0 0 95%;
+  /* flex: 0 0 150%; */
+  background-position: center;
 }
 
 .section-frame2 .image-section {

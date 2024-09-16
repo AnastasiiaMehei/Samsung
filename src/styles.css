@@ -238,8 +238,8 @@ body {
   height: 72vh;
   width: 1400px;
   display: flex;
-  flex: 0 0 95%;
-  /* flex: 0 0 150%; */
+  /* flex: 0 0 95%; */
+  flex: 0 0 150%;
   background-position: center;
 }
 

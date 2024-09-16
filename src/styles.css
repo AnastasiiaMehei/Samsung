@@ -235,7 +235,7 @@ body {
   height: -webkit-fill-available;
 }
 .logo-frame2 {
-  /* padding: 29px; */
+  padding: 29px;
     width: -webkit-fill-available;
 }
 .wrappwer-frame2-frame-img {
@@ -546,11 +546,12 @@ justify-content: center;
   font-size: 9px; 
 }
 .samsung-logo img {
-  width: 60px;
+  width: 105px;
   height: 40px;
 }
-}
-
+.logo-frame2 {
+    padding: 25px 0px 0px 7px;
+}  }
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 900px;
@@ -562,6 +563,7 @@ justify-content: center;
     max-width: 423px;
    height: 100%;
   }
+  
   .footer-div {
     margin-top: 130px;
 }
@@ -579,12 +581,8 @@ justify-content: center;
 .footer-paragraph {
   font-size: 20px;}
   .paragraph {
-    font-size: 15px;
-    line-height: 14px;
-}
-.kitchnlogo img {
-  width: 86px;
-  height: 19px;
+    font-size: 11px;
+    line-height: 12px;
 }
 .bespoke {
   font-size: 18px;
@@ -595,7 +593,7 @@ justify-content: center;
 }
 .div-paragraph {
   width: 213px;
-  margin-top: 47px;
+  margin-top: 10px;
 }
 .kitchnlogo-div {
   display: flex;
@@ -606,14 +604,18 @@ justify-content: center;
   font-size: 7px;
 }
 .samsung-logo {
-
   margin-bottom: 10px;
+  width: 60px;
+  height: 20px;
+}
+.samsung-logo svg {
+  width: 60px;
+  height: 20px;
 }
 .frame2-paragraph {
 margin-bottom: 14px;
 margin-top: 13px;
-width: 223px;
-font-weight: 500;
+width: 205px;
 font-size: 8px;
     line-height: normal;
 }
@@ -624,7 +626,7 @@ font-size: 8px;
 }
 .logo-frame2 {
 
-  padding: 15px;
+  padding: 40px 21px 16px 6px;
 }
 .btn-div {
   margin-top: 0px;
@@ -637,21 +639,22 @@ font-size: 8px;
   height: 24px;
 }
 .kitchnlogo img {
-  width: 68px;
-  height: 19px;
+  width: 38px;
+  height: 12px;
 }
 .button-shop-now {
-  width: 110px;
-  height: 35px;
+  width: 101px;
+  height: 34px;
   border: 2px solid #000000;
   font-size: 42px;
   line-height: 27px;
   font-size: 10px;
   line-height: -20px;
   margin-top: 5px;}
-.frame2-paragraph-five {
-  margin-top: 7px;
+.frame2-five {
+  margin-top: 4px;
   width: 313px;
+  
 }
 .sumsung-name-logo {
   margin-top: 53px;
@@ -660,8 +663,9 @@ font-size: 8px;
   width: 60px;
   height: 20px;
 }
-.frame2-paragraph-five {
-  
-  margin-top: 4px;
-}
+.frame {
+  height: 274px;
+  }    .span-left-right {
+        font-size: 12px;
+    }
 }

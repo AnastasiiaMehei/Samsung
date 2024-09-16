@@ -103,8 +103,8 @@ body {
 /* ====================================== main page =========================================== */
 /* frame1 */
 .section-frame1 {
-  /* display: none; */
-  display: flex;
+  display: none;
+  /* display: flex; */
   justify-content: center;  
   /* width: -webkit-fill-available;  */
 }
@@ -118,7 +118,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  padding: 27px;
+  padding: 50px;
 }
  .logo {
   width: 100%;
@@ -161,7 +161,7 @@ body {
   height: 26px;
 }
 .footer-div {
-  margin-top: 200px;
+  margin-top: 151px;
   display: flex;
   flex-direction: column;
 
@@ -208,8 +208,8 @@ body {
   width: -webkit-fill-available;
 }
 .section-frame2 {
-  display: none;
-  /* display: flex; */
+  /* display: none; */
+  display: flex;
 
   justify-content: center;
 }
@@ -217,7 +217,9 @@ body {
   border: 4px solid #000000;
   background-repeat: no-repeat;
   background-color: #fff;
-  height: 72vh;
+  /* height: 72vh; */
+  height: 642px;
+
   /* width: 1400px; */
   display: flex;
   /* flex: 0 0 95%; */
@@ -233,7 +235,7 @@ body {
   height: -webkit-fill-available;
 }
 .logo-frame2 {
-  padding: 29px;
+  /* padding: 29px; */
     width: -webkit-fill-available;
 }
 .wrappwer-frame2-frame-img {
@@ -483,32 +485,75 @@ justify-content: center;
     max-width: 500px;
     height: 100%;
   }
+  /* .samsung-logo svg {
+    width: 50px;
+    height: 50px;
+  } */
   .footer-div {
-    margin-top: 65px;
+    margin-top: 45px;
 }
 .footer-paragraph {
 
-  font-size: 61px;
+  font-size: 37px;
 }
 .bespoke {
   font-size: 29px;
 }
 .div-paragraph {
-  width: 343px;
+  width: 292px;
 }
 .paragraph {
   font-size: 26px;
 }
 .frame {
-  height: 66vh;}
+  height: 406px;
+}
 .samsung-logo {
   margin-top: 0px;
+}
+.paragraph {
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer-details {
+  margin-top: 8px;}
+  .frame2-paragraph {
+    margin-bottom: 0px;
+    margin-top: 32px;    width: 365px;
+    font-size: 11px;
+    width: 268px;  }
+  .logo{
+    margin: 14px;
+  }
+  .left-btn svg, .right-btn svg {
+    width: 29px;
+    height: 29px;
+  }
+  .span-left-right {
+    font-size: 19px;
+  }
+  .button-shop-now {
+    width: 162px;
+    height: 51px;
+    border: 2px solid #000000;
+    font-size: 42px;
+    line-height: 27px;
+    font-size: 15px;
+    line-height: -20px;
+    margin-top: 16px;
+}
+.footer-details {
+  font-size: 9px; 
+}
+.samsung-logo img {
+  width: 60px;
+  height: 40px;
 }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1200px;
+    max-width: 900px;
   }
 }
 
@@ -528,14 +573,18 @@ justify-content: center;
   font-size: 22px;
   line-height: 36px;}
   .frame {
-    height: 49vh;
-}
+    height: 320px;}
 .footer-div {
   margin-top: 26px;}
 .footer-paragraph {
   font-size: 20px;}
   .paragraph {
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 14px;
+}
+.kitchnlogo img {
+  width: 86px;
+  height: 19px;
 }
 .bespoke {
   font-size: 18px;
@@ -545,6 +594,74 @@ justify-content: center;
   margin-top: -20px;
 }
 .div-paragraph {
-  width: 239px;
+  width: 213px;
+  margin-top: 47px;
+}
+.kitchnlogo-div {
+  display: flex;
+  flex-direction: row;
+}
+.footer-details {
+  margin-top: 1px;
+  font-size: 7px;
+}
+.samsung-logo {
+
+  margin-bottom: 10px;
+}
+.frame2-paragraph {
+margin-bottom: 14px;
+margin-top: 13px;
+width: 223px;
+font-weight: 500;
+font-size: 8px;
+    line-height: normal;
+}
+.button-shop-now {
+  width: 109px;
+  height: 34px;
+  font-size: 8px;
+}
+.logo-frame2 {
+
+  padding: 15px;
+}
+.btn-div {
+  margin-top: 0px;
+  width: 93px;
+
+  font-size: 5px;
+}
+.left-btn svg, .right-btn svg {
+  width: 24px;
+  height: 24px;
+}
+.kitchnlogo img {
+  width: 68px;
+  height: 19px;
+}
+.button-shop-now {
+  width: 110px;
+  height: 35px;
+  border: 2px solid #000000;
+  font-size: 42px;
+  line-height: 27px;
+  font-size: 10px;
+  line-height: -20px;
+  margin-top: 5px;}
+.frame2-paragraph-five {
+  margin-top: 7px;
+  width: 313px;
+}
+.sumsung-name-logo {
+  margin-top: 53px;
+}
+.samsung-logo img {
+  width: 60px;
+  height: 20px;
+}
+.frame2-paragraph-five {
+  
+  margin-top: 4px;
 }
 }

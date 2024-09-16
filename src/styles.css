@@ -577,7 +577,10 @@ justify-content: center;
   .frame {
     height: 320px;}
 .footer-div {
-  margin-top: 26px;}
+  /* margin-top: 26px; */
+  margin-top: 103px;
+
+}
 .footer-paragraph {
   font-size: 20px;}
   .paragraph {
@@ -600,7 +603,7 @@ justify-content: center;
   flex-direction: row;
 }
 .footer-details {
-  margin-top: 1px;
+  margin-top: 9px;
   font-size: 7px;
 }
 .samsung-logo {
@@ -667,5 +670,12 @@ font-size: 8px;
   height: 274px;
   }    .span-left-right {
         font-size: 12px;
+    }
+    .frame1{
+      padding: 42px 23px 10px 12px;
+    }
+    .logo {
+      
+      margin: 4px -2px 0px 8px;
     }
 }

@@ -35,6 +35,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 );
             }
         }, 0);
+        animationPromise.then(() => {
+            // Анімація зображення після завершення попередніх анімацій
+            gsap.fromTo(".image-section", 
+                { x: -100, opacity: 0 },
+                { x: 0, opacity: 1, duration: 1, delay: 0.5 }
+            );
+        });
 
         const sections = document.querySelectorAll('.section-frame');
         let currentIndex = 0;

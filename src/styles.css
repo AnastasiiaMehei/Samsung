@@ -110,7 +110,7 @@ body {
   overflow: hidden;
   width: 100%;
   background-color: #ffffff;
-  border: 4px solid #000000;
+  border: 2px solid #000000;
   background-image: url(/src/img/frame1.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -210,7 +210,7 @@ body {
   justify-content: center;
 }
 .frame {
-  border: 4px solid #000000;
+  border: 2px solid #000000;
   background-repeat: no-repeat;
   background-color: #fff;
   height: 642px;
@@ -595,7 +595,7 @@ padding: 20px;
   width: 60px;
   height: 20px;
 }
-.frame2-paragraph {margin-bottom: -4px;margin-top: 11px;width: 162px;font-size: 6px;line-height: normal;}
+.frame2-paragraph {margin-bottom: -4px;margin-top: 11px;width: 140px; font-size: 6px;line-height: normal;}
 .button-shop-now {
   width: 109px;
   height: 34px;

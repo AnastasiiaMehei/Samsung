@@ -236,7 +236,7 @@ body {
   height: -webkit-fill-available;
 }
 .logo-frame2 {
-  padding: 29px;
+  padding: 53px;
     width: -webkit-fill-available;
 }
 .wrappwer-frame2-frame-img {
@@ -501,7 +501,7 @@ justify-content: center;
   font-size: 29px;
 }
 .div-paragraph {
-  width: 292px;
+  width: 224px;
 }
 .paragraph {
   font-size: 26px;
@@ -530,6 +530,10 @@ padding: 20px;
   .logo{
     margin: 14px;
   }
+  .kitchnlogo img {
+    width: 74px;
+    height: 20px;
+  }
   .left-btn svg, .right-btn svg {
     width: 29px;
     height: 29px;
@@ -555,8 +559,8 @@ padding: 20px;
   height: 40px;
 }
 .logo-frame2 {
-    padding: 25px 0px 0px 7px;
-}  }
+  padding: 20px 0px 0px 18px;
+} }
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 900px;
@@ -565,8 +569,8 @@ padding: 20px;
 
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 370px;
-   height: 100%;
+    max-width: 300px;
+    height: 100%;
   }
   
   .footer-div {
@@ -582,25 +586,25 @@ padding: 20px;
   .frame {
     height: 320px;}
 .footer-div {
-  /* margin-top: 26px; */
-  margin-top: 103px;
+  margin-top: 64px;
+
 
 }
 .footer-paragraph {
   font-size: 20px;}
   .paragraph {
-    font-size: 11px;
+    font-size: 9px;
     line-height: 12px;
 }
 .bespoke {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 16px;
 }
 .samsung-logo {
   margin-top: -20px;
 }
 .div-paragraph {
-  width: 213px;
+  width: 119px;
   margin-top: 10px;
 }
 .kitchnlogo-div {
@@ -609,7 +613,7 @@ padding: 20px;
 }
 .footer-details {
   margin-top: 9px;
-  font-size: 7px;
+  font-size: 4px;
 }
 .samsung-logo {
   margin-bottom: 10px;
@@ -620,26 +624,22 @@ padding: 20px;
   width: 60px;
   height: 20px;
 }
-.frame2-paragraph {
-margin-bottom: 14px;
-margin-top: 13px;
-width: 205px;
-font-size: 8px;
-    line-height: normal;
-}
+.frame2-paragraph {margin-bottom: -4px;margin-top: 11px;width: 162px;font-size: 6px;line-height: normal;}
 .button-shop-now {
   width: 109px;
   height: 34px;
   font-size: 8px;
 }
+.kitchnlogo-div {
+  gap: 3px;
+}
 .logo-frame2 {
 
-  padding: 40px 21px 16px 6px;
+  padding: 45px 28px 3px 10px;
 }
 .btn-div {
-  margin-top: 0px;
-  width: 93px;
-
+  margin-top: 6px;
+  width: 78px;
   font-size: 5px;
 }
 .left-btn svg, .right-btn svg {
@@ -651,12 +651,12 @@ font-size: 8px;
   height: 12px;
 }
 .button-shop-now {
-  width: 101px;
-  height: 34px;
+  width: 81px;
+  height: 26px;
   border: 2px solid #000000;
   font-size: 42px;
-  line-height: 27px;
-  font-size: 10px;
+  line-height: 11px;
+  font-size: 7px;
   line-height: -20px;
   margin-top: 5px;}
 .frame2-five {
@@ -672,7 +672,7 @@ font-size: 8px;
   height: 20px;
 }
 .frame {
-  height: 274px;
+  height: 234px;
   }    .span-left-right {
         font-size: 12px;
     }
@@ -681,6 +681,10 @@ font-size: 8px;
     }
     .logo {
       
-      margin: 4px -2px 0px 8px;
+      margin: 5px -55px 0px 8px;
     }
+    .bespoke-position {
+
+      margin-right: 16px;
+      margin-top: 14px;}
 }

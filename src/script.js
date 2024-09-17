@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
 
     animationPromise.then(() => {
-        // Додаткова затримка після завершення анімації
         setTimeout(() => {
             const sectionFrame1 = document.querySelector('.section-frame1');
             if (sectionFrame1) {
@@ -36,7 +35,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
             }
         }, 0);
         animationPromise.then(() => {
-            // Анімація зображення після завершення попередніх анімацій
             gsap.fromTo(".image-section", 
                 { x: -100, opacity: 0 },
                 { x: 0, opacity: 1, duration: 1, delay: 0.5 }
@@ -58,7 +56,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             autoScrollInterval = setInterval(() => {
                 currentIndex = (currentIndex + 1) % sections.length;
                 updateSections();
-            }, 5000); // Переключення кожні 5 секунд
+            }, 5000); 
         }
 
         function stopAutoScroll() {
@@ -74,7 +72,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 currentIndex = (currentIndex + 1) % sections.length;
                 updateSections();
                 stopAutoScroll();
-                userInteractionTimeout = setTimeout(startAutoScroll, 30000); // Перезапуск автоматичного прокручування через 30 секунд
+                userInteractionTimeout = setTimeout(startAutoScroll, 30000);
             });
         });
 
@@ -84,11 +82,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 currentIndex = (currentIndex - 1 + sections.length) % sections.length;
                 updateSections();
                 stopAutoScroll();
-                userInteractionTimeout = setTimeout(startAutoScroll, 30000); // Перезапуск автоматичного прокручування через 30 секунд
+                userInteractionTimeout = setTimeout(startAutoScroll, 30000);
             });
         });
 
-        // Запуск автоматичного прокручування через 30 секунд після відкриття сторінки
         setTimeout(startAutoScroll, 0);
     });
 

@@ -87,7 +87,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* overflow-x: hidden; */
     
 }
 .container {
@@ -104,10 +103,8 @@ body {
 /* ====================================== main page =========================================== */
 /* frame1 */
 .section-frame1 {
-  /* display: none; */
   display: flex;
   justify-content: center;  
-  /* width: -webkit-fill-available;  */
 }
 .frame1 {
   overflow: hidden;
@@ -129,7 +126,6 @@ body {
  }
  .samsung-logo {
   margin-top: 20px;
-  /* margin-top: 10px; */
 
   margin-bottom: 22px;
 }
@@ -210,7 +206,6 @@ body {
 }
 .section-frame2 {
   display: none;
-  /* display: flex; */
 
   justify-content: center;
 }
@@ -218,12 +213,8 @@ body {
   border: 4px solid #000000;
   background-repeat: no-repeat;
   background-color: #fff;
-  /* height: 72vh; */
   height: 642px;
-
-  /* width: 1400px; */
   display: flex;
-  /* flex: 0 0 95%; */
   flex: 0 0 150%;
   background-position: center;
 }
@@ -307,7 +298,6 @@ justify-content: center;
 /* frame4 */
 .section-frame4 {
   display: none;
-      /* display: flex; */
 justify-content: center;
 }
 .frame4 .image-section {
@@ -324,9 +314,7 @@ justify-content: center;
 /* frame5 */
 .section-frame5 {
   display: none;
-  /* display: flex; */
   justify-content: center;
-
 }
 
 .section-frame5 .image-section {
@@ -341,13 +329,11 @@ justify-content: center;
 }
 .frame2-paragraph-five {
   width: 511px;
-  /* margin-top: 29px; */
 }
 /* ================================== fifth section ========================================== */
 /* frame6 */
 .section-frame6 {
   display: none;
-  /* display: flex; */
   justify-content: center;
 }
 
@@ -400,7 +386,6 @@ justify-content: center;
 .swiper-button-prev.animate-shrink {
   animation: shrink 0.5s forwards;
 }
-/* automation animation */
 .blink {
   animation: blink 2s infinite;
 }
@@ -416,21 +401,20 @@ justify-content: center;
     opacity: 1;
   }
 }
-/* Додайте цей код в ваш CSS файл */
 
 /* Mobile styles */
 @media screen and (max-width: 320px) {
   .container {
-    padding: 0 10px; /* Add some padding to prevent text from touching the edges */
+    padding: 0 10px; 
   }
 
   .paragraph, .footer-paragraph, .save-now, .frame2-paragraph {
-    font-size: 14px; /* Adjust font size for better readability */
+    font-size: 14px;
     line-height: 18px;
   }
 
   .samsung-logo-img {
-    width: 150px; /* Adjust logo size */
+    width: 150px;
   }
 
   .button-shop-now {
@@ -443,16 +427,16 @@ justify-content: center;
 /* Tablet styles */
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .container {
-    padding: 0 20px; /* Add some padding to prevent text from touching the edges */
+    padding: 0 20px; 
   }
 
   .paragraph, .footer-paragraph, .save-now, .frame2-paragraph {
-    font-size: 18px; /* Adjust font size for better readability */
+    font-size: 18px; 
     line-height: 22px;
   }
 
   .samsung-logo-img {
-    width: 200px; /* Adjust logo size */
+    width: 200px;
   }
 
   .button-shop-now {
@@ -460,19 +444,9 @@ justify-content: center;
     height: 70px;
     font-size: 24px;
   }
-  /* .frame {
-    flex: 0 0 104%;
-    height: 76vh;
-
-  } */
+  
 }
-/* @media screen and (max-width: 1439px) {
-  .frame {
-    flex: 0 0 163%;
-    height: 76vh;
 
-  }
-} */
  
 @media screen and (max-width: 374.98px) {
   .container {
@@ -486,10 +460,7 @@ justify-content: center;
     max-width: 500px;
     height: 100%;
   }
-  /* .samsung-logo svg {
-    width: 50px;
-    height: 50px;
-  } */
+
   .footer-div {
     margin-top: 133px;
 }
